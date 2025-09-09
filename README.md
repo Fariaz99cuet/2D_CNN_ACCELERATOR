@@ -4,7 +4,7 @@
 # CNN Hardware Accelerator for Image Processing
 
 This project implements a **hardware accelerator for Convolutional Neural Networks (CNNs)** using Verilog. The design includes **convolution, quantization, ReLU activation, and pooling** stages, optimized for FPGA or ASIC deployment. It is intended for educational purposes as well as small-scale embedded CNN acceleration.
-This is for my learning purpose and originally inspired from ```bash gh repo clone Mattjesc/Efficient-FPGA-CNN-Accelerator ```
+This is for my learning purpose and originally inspired from [This Project](https://github.com/Mattjesc/Efficient-FPGA-CNN-Accelerator/tree/main?tab=readme-ov-file)
 
 ---
 
