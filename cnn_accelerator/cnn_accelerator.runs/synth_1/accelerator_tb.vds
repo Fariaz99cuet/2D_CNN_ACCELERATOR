@@ -1,0 +1,318 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Sep  9 23:58:53 2025
+# Process ID         : 13344
+# Current directory  : D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.runs/synth_1
+# Command line       : vivado.exe -log accelerator_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source accelerator_tb.tcl
+# Log file           : D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.runs/synth_1/accelerator_tb.vds
+# Journal file       : D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.runs/synth_1\vivado.jou
+# Running On         : Fariaz
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 21996
+# Processor Detail   : Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+# CPU Frequency      : 2400 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8427 MB
+# Swap memory        : 25355 MB
+# Total Virtual      : 33782 MB
+# Available Virtual  : 20637 MB
+#-----------------------------------------------------------
+source accelerator_tb.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 347.289 ; gain = 61.363
+Command: read_checkpoint -auto_incremental -incremental D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.srcs/utils_1/imports/synth_1/accelerator.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.srcs/utils_1/imports/synth_1/accelerator.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top accelerator_tb -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13480
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 828.934 ; gain = 471.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'accelerator_tb' [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:4]
+WARNING: [Synth 8-6896] wait statement is inside initial block, initial block items will be ignored [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:94]
+INFO: [Synth 8-6157] synthesizing module 'accelerator' [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/accelerator.v:4]
+	Parameter N bound to: 16 - type: integer 
+	Parameter Q bound to: 12 - type: integer 
+	Parameter n bound to: 6 - type: integer 
+	Parameter k bound to: 3 - type: integer 
+	Parameter p bound to: 2 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+	Parameter NUM_MAC bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'convolver' [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:4]
+	Parameter N bound to: 16 - type: integer 
+	Parameter Q bound to: 12 - type: integer 
+	Parameter n bound to: 6 - type: integer 
+	Parameter k bound to: 3 - type: integer 
+	Parameter s bound to: 1 - type: integer 
+	Parameter NUM_MAC bound to: 4 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:94]
+INFO: [Synth 8-226] default block is never used [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:119]
+INFO: [Synth 8-6155] done synthesizing module 'convolver' (0#1) [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:4]
+INFO: [Synth 8-6157] synthesizing module 'quantizer' [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/quantizer.v:4]
+	Parameter N bound to: 16 - type: integer 
+	Parameter Q bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'quantizer' (0#1) [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/quantizer.v:4]
+INFO: [Synth 8-6157] synthesizing module 'relu' [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/relu.v:4]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'relu' (0#1) [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/relu.v:4]
+INFO: [Synth 8-6157] synthesizing module 'pooler' [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/pooler.v:4]
+	Parameter N bound to: 16 - type: integer 
+	Parameter m bound to: 4 - type: integer 
+	Parameter p bound to: 2 - type: integer 
+INFO: [Synth 8-226] default block is never used [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/pooler.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'pooler' (0#1) [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/pooler.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'accelerator' (0#1) [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/accelerator.v:4]
+WARNING: [Synth 8-85] always block has no event control specified [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'accelerator_tb' (0#1) [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:4]
+WARNING: [Synth 8-6014] Unused sequential element line_buffer_reg[11] was removed.  [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:44]
+WARNING: [Synth 8-6014] Unused sequential element line_buffer_reg[10] was removed.  [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:44]
+WARNING: [Synth 8-6014] Unused sequential element line_buffer_reg[9] was removed.  [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v:44]
+WARNING: [Synth 8-3848] Net rst in module/entity accelerator_tb does not have driver. [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:16]
+WARNING: [Synth 8-3848] Net en in module/entity accelerator_tb does not have driver. [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:17]
+WARNING: [Synth 8-3848] Net activation_in in module/entity accelerator_tb does not have driver. [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:18]
+WARNING: [Synth 8-3848] Net weight in module/entity accelerator_tb does not have driver. [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:19]
+WARNING: [Synth 8-3848] Net pool_type in module/entity accelerator_tb does not have driver. [D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v:20]
+WARNING: [Synth 8-7129] Port din[10] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[9] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[8] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[7] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[6] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[5] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[4] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[3] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[2] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[1] in module quantizer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port din[0] in module quantizer is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:17 . Memory (MB): peak = 937.703 ; gain = 579.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 937.703 ; gain = 579.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 937.703 ; gain = 579.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.srcs/utils_1/imports/synth_1/accelerator.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 937.703 ; gain = 579.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 937.703 ; gain = 579.953
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'convolver'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'pooler'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'accelerator'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                    LOAD |                               01 |                               01
+                 COMPUTE |                               10 |                               10
+                    DONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'convolver'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                    LOAD |                               01 |                               01
+                 COMPUTE |                               10 |                               10
+                    DONE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'pooler'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                    CONV |                               01 |                               01
+                    POOL |                               10 |                               10
+                  FINISH |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'accelerator'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 937.703 ; gain = 579.953
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   9 Input   16 Bit       Adders := 1     
+	   4 Input   16 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 19    
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 7     
+	   4 Input   16 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 9     
+	   2 Input    1 Bit        Muxes := 6     
+	   4 Input    1 Bit        Muxes := 17    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (uut/conv_inst/FSM_sequential_state_reg[1]) is unused and will be removed from module accelerator_tb.
+WARNING: [Synth 8-3332] Sequential element (uut/conv_inst/FSM_sequential_state_reg[0]) is unused and will be removed from module accelerator_tb.
+WARNING: [Synth 8-3332] Sequential element (uut/pool_inst/FSM_sequential_state_reg[1]) is unused and will be removed from module accelerator_tb.
+WARNING: [Synth 8-3332] Sequential element (uut/pool_inst/FSM_sequential_state_reg[0]) is unused and will be removed from module accelerator_tb.
+WARNING: [Synth 8-3332] Sequential element (uut/FSM_sequential_state_reg[1]) is unused and will be removed from module accelerator_tb.
+WARNING: [Synth 8-3332] Sequential element (uut/FSM_sequential_state_reg[0]) is unused and will be removed from module accelerator_tb.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1088.453 ; gain = 730.703
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.230 ; gain = 746.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 1104.230 ; gain = 746.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 1303.543 ; gain = 945.793
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1304.594 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1425.008 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f6c3516f
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 28 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:46 . Memory (MB): peak = 1425.008 ; gain = 1074.723
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.runs/synth_1/accelerator_tb.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file accelerator_tb_utilization_synth.rpt -pb accelerator_tb_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 10 00:00:28 2025...

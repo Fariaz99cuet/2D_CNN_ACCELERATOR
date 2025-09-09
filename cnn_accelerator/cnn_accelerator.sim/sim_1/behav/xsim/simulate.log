@@ -1,0 +1,758 @@
+Time resolution is 1 ps
+Time                25000: State = DLE, Next State = OAD
+input_counter =  0, output_counter =  0, row_counter = 0
+Time                35000: State = OAD, Next State = OAD
+input_counter =  0, output_counter =  0, row_counter = 0
+Time                45000: State = OAD, Next State = OAD
+input_counter =  1, output_counter =  0, row_counter = 0
+Time                55000: State = OAD, Next State = OAD
+input_counter =  2, output_counter =  0, row_counter = 0
+Time                65000: State = OAD, Next State = OAD
+input_counter =  3, output_counter =  0, row_counter = 0
+Time                75000: State = OAD, Next State = OAD
+input_counter =  4, output_counter =  0, row_counter = 0
+Time                85000: State = OAD, Next State = OAD
+input_counter =  5, output_counter =  0, row_counter = 0
+Time                95000: State = OAD, Next State = OAD
+input_counter =  6, output_counter =  0, row_counter = 1
+Time               105000: State = OAD, Next State = OAD
+input_counter =  7, output_counter =  0, row_counter = 1
+Time               115000: State = OAD, Next State = OAD
+input_counter =  8, output_counter =  0, row_counter = 1
+Time               125000: State = OAD, Next State = OAD
+input_counter =  9, output_counter =  0, row_counter = 1
+Time               135000: State = OAD, Next State = OAD
+input_counter = 10, output_counter =  0, row_counter = 1
+Time               145000: State = OAD, Next State = OAD
+input_counter = 11, output_counter =  0, row_counter = 1
+Time               155000: State = OAD, Next State = UTE
+input_counter = 12, output_counter =  0, row_counter = 2
+Time               165000: State = UTE, Next State = OAD
+input_counter = 13, output_counter =  0, row_counter = 2
+Convolution Result: conv_temp = 0041
+window_buffer[          0] = 608d, weight[          0] = 60bb, product = 0006
+window_buffer[          1] = 608b, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 6088, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 6080, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 607e, weight[          4] = 60c3, product = fffb
+window_buffer[          5] = 607d, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 608d, weight[          6] = 60c6, product = fff8
+window_buffer[          7] = 608b, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 6088, weight[          8] = 60cb, product = fff8
+Time               175000: State = OAD, Next State = UTE
+input_counter = 13, output_counter =  1, row_counter = 2
+Valid Output: conv_out = 0041
+Time               185000: State = UTE, Next State = UTE
+input_counter = 14, output_counter =  1, row_counter = 2
+Convolution Result: conv_temp = 0046
+window_buffer[          0] = 6090, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 608d, weight[          1] = 60bd, product = 0002
+window_buffer[          2] = 608b, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6083, weight[          3] = 60c0, product = fff8
+window_buffer[          4] = 6080, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 607e, weight[          5] = 60c5, product = fff8
+window_buffer[          6] = 6090, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 608d, weight[          7] = 60c8, product = 0004
+window_buffer[          8] = 608b, weight[          8] = 60cb, product = fffa
+Time               195000: State = UTE, Next State = UTE
+input_counter = 14, output_counter =  2, row_counter = 2
+Convolution Result: conv_temp = 0046
+window_buffer[          0] = 6090, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 608d, weight[          1] = 60bd, product = 0002
+window_buffer[          2] = 608b, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6083, weight[          3] = 60c0, product = fff8
+window_buffer[          4] = 6080, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 607e, weight[          5] = 60c5, product = fff8
+window_buffer[          6] = 6090, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 608d, weight[          7] = 60c8, product = 0004
+window_buffer[          8] = 608b, weight[          8] = 60cb, product = fffa
+Valid Output: conv_out = 0046
+Time               205000: State = UTE, Next State = OAD
+input_counter = 14, output_counter =  3, row_counter = 2
+Convolution Result: conv_temp = 0046
+window_buffer[          0] = 6090, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 608d, weight[          1] = 60bd, product = 0002
+window_buffer[          2] = 608b, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6083, weight[          3] = 60c0, product = fff8
+window_buffer[          4] = 6080, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 607e, weight[          5] = 60c5, product = fff8
+window_buffer[          6] = 6090, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 608d, weight[          7] = 60c8, product = 0004
+window_buffer[          8] = 608b, weight[          8] = 60cb, product = fffa
+Valid Output: conv_out = 0046
+Time               215000: State = OAD, Next State = UTE
+input_counter = 14, output_counter =  4, row_counter = 2
+Valid Output: conv_out = 0046
+Time               225000: State = UTE, Next State = UTE
+input_counter = 15, output_counter =  4, row_counter = 2
+Convolution Result: conv_temp = 003e
+window_buffer[          0] = 6098, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 6090, weight[          1] = 60bd, product = 0004
+window_buffer[          2] = 608d, weight[          2] = 60be, product = fff8
+window_buffer[          3] = 6085, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 6083, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6080, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 6098, weight[          6] = 60c6, product = fffb
+window_buffer[          7] = 6090, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 608d, weight[          8] = 60cb, product = 0006
+Time               235000: State = UTE, Next State = UTE
+input_counter = 15, output_counter =  5, row_counter = 2
+Convolution Result: conv_temp = 003e
+window_buffer[          0] = 6098, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 6090, weight[          1] = 60bd, product = 0004
+window_buffer[          2] = 608d, weight[          2] = 60be, product = fff8
+window_buffer[          3] = 6085, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 6083, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6080, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 6098, weight[          6] = 60c6, product = fffb
+window_buffer[          7] = 6090, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 608d, weight[          8] = 60cb, product = 0006
+Valid Output: conv_out = 003e
+Time               245000: State = UTE, Next State = UTE
+input_counter = 15, output_counter =  6, row_counter = 2
+Convolution Result: conv_temp = 003e
+window_buffer[          0] = 6098, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 6090, weight[          1] = 60bd, product = 0004
+window_buffer[          2] = 608d, weight[          2] = 60be, product = fff8
+window_buffer[          3] = 6085, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 6083, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6080, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 6098, weight[          6] = 60c6, product = fffb
+window_buffer[          7] = 6090, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 608d, weight[          8] = 60cb, product = 0006
+Valid Output: conv_out = 003e
+Time               255000: State = UTE, Next State = OAD
+input_counter = 15, output_counter =  7, row_counter = 2
+Convolution Result: conv_temp = 003e
+window_buffer[          0] = 6098, weight[          0] = 60bb, product = fff8
+window_buffer[          1] = 6090, weight[          1] = 60bd, product = 0004
+window_buffer[          2] = 608d, weight[          2] = 60be, product = fff8
+window_buffer[          3] = 6085, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 6083, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6080, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 6098, weight[          6] = 60c6, product = fffb
+window_buffer[          7] = 6090, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 608d, weight[          8] = 60cb, product = 0006
+Valid Output: conv_out = 003e
+Time               265000: State = OAD, Next State = UTE
+input_counter = 15, output_counter =  8, row_counter = 2
+Valid Output: conv_out = 003e
+Time               275000: Valid Output - data_out = 0000
+Time               275000: State = UTE, Next State = UTE
+input_counter = 16, output_counter =  8, row_counter = 2
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60a3, weight[          0] = 60bb, product = fffb
+window_buffer[          1] = 6098, weight[          1] = 60bd, product = 0005
+window_buffer[          2] = 6090, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 6086, weight[          3] = 60c0, product = fffa
+window_buffer[          4] = 6085, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 6083, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60a3, weight[          6] = 60c6, product = fffd
+window_buffer[          7] = 6098, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 6090, weight[          8] = 60cb, product = fff9
+Time               285000: State = UTE, Next State = UTE
+input_counter = 16, output_counter =  9, row_counter = 2
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60a3, weight[          0] = 60bb, product = fffb
+window_buffer[          1] = 6098, weight[          1] = 60bd, product = 0005
+window_buffer[          2] = 6090, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 6086, weight[          3] = 60c0, product = fffa
+window_buffer[          4] = 6085, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 6083, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60a3, weight[          6] = 60c6, product = fffd
+window_buffer[          7] = 6098, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 6090, weight[          8] = 60cb, product = fff9
+Valid Output: conv_out = 004d
+Time               295000: Valid Output - data_out = 0000
+Time               295000: State = UTE, Next State = UTE
+input_counter = 16, output_counter = 10, row_counter = 2
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60a3, weight[          0] = 60bb, product = fffb
+window_buffer[          1] = 6098, weight[          1] = 60bd, product = 0005
+window_buffer[          2] = 6090, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 6086, weight[          3] = 60c0, product = fffa
+window_buffer[          4] = 6085, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 6083, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60a3, weight[          6] = 60c6, product = fffd
+window_buffer[          7] = 6098, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 6090, weight[          8] = 60cb, product = fff9
+Valid Output: conv_out = 004d
+Time               305000: State = UTE, Next State = OAD
+input_counter = 16, output_counter = 11, row_counter = 2
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60a3, weight[          0] = 60bb, product = fffb
+window_buffer[          1] = 6098, weight[          1] = 60bd, product = 0005
+window_buffer[          2] = 6090, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 6086, weight[          3] = 60c0, product = fffa
+window_buffer[          4] = 6085, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 6083, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60a3, weight[          6] = 60c6, product = fffd
+window_buffer[          7] = 6098, weight[          7] = 60c8, product = 0007
+window_buffer[          8] = 6090, weight[          8] = 60cb, product = fff9
+Valid Output: conv_out = 004d
+Time               315000: State = OAD, Next State = UTE
+input_counter = 16, output_counter = 12, row_counter = 2
+Valid Output: conv_out = 004d
+Time               325000: State = UTE, Next State = UTE
+input_counter = 17, output_counter = 12, row_counter = 2
+Convolution Result: conv_temp = 0049
+window_buffer[          0] = 60ad, weight[          0] = 60bb, product = 0007
+window_buffer[          1] = 60a3, weight[          1] = 60bd, product = 0007
+window_buffer[          2] = 6098, weight[          2] = 60be, product = fffb
+window_buffer[          3] = 6088, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 6086, weight[          4] = 60c3, product = fffc
+window_buffer[          5] = 6085, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60ad, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 60a3, weight[          7] = 60c8, product = fff9
+window_buffer[          8] = 6098, weight[          8] = 60cb, product = fff9
+Time               335000: State = UTE, Next State = UTE
+input_counter = 17, output_counter = 13, row_counter = 2
+Convolution Result: conv_temp = 0049
+window_buffer[          0] = 60ad, weight[          0] = 60bb, product = 0007
+window_buffer[          1] = 60a3, weight[          1] = 60bd, product = 0007
+window_buffer[          2] = 6098, weight[          2] = 60be, product = fffb
+window_buffer[          3] = 6088, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 6086, weight[          4] = 60c3, product = fffc
+window_buffer[          5] = 6085, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60ad, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 60a3, weight[          7] = 60c8, product = fff9
+window_buffer[          8] = 6098, weight[          8] = 60cb, product = fff9
+Valid Output: conv_out = 0049
+Time               345000: State = UTE, Next State = UTE
+input_counter = 17, output_counter = 14, row_counter = 2
+Convolution Result: conv_temp = 0049
+window_buffer[          0] = 60ad, weight[          0] = 60bb, product = 0007
+window_buffer[          1] = 60a3, weight[          1] = 60bd, product = 0007
+window_buffer[          2] = 6098, weight[          2] = 60be, product = fffb
+window_buffer[          3] = 6088, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 6086, weight[          4] = 60c3, product = fffc
+window_buffer[          5] = 6085, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60ad, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 60a3, weight[          7] = 60c8, product = fff9
+window_buffer[          8] = 6098, weight[          8] = 60cb, product = fff9
+Valid Output: conv_out = 0049
+Time               355000: State = UTE, Next State = ONE
+input_counter = 17, output_counter = 15, row_counter = 2
+Convolution Result: conv_temp = 0049
+window_buffer[          0] = 60ad, weight[          0] = 60bb, product = 0007
+window_buffer[          1] = 60a3, weight[          1] = 60bd, product = 0007
+window_buffer[          2] = 6098, weight[          2] = 60be, product = fffb
+window_buffer[          3] = 6088, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 6086, weight[          4] = 60c3, product = fffc
+window_buffer[          5] = 6085, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60ad, weight[          6] = 60c6, product = fffa
+window_buffer[          7] = 60a3, weight[          7] = 60c8, product = fff9
+window_buffer[          8] = 6098, weight[          8] = 60cb, product = fff9
+Valid Output: conv_out = 0049
+Time               365000: State = ONE, Next State = DLE
+input_counter = 17, output_counter =  0, row_counter = 2
+Valid Output: conv_out = 0049
+Time               375000: State = DLE, Next State = OAD
+input_counter = 17, output_counter =  0, row_counter = 2
+Valid Output: conv_out = 0049
+Convolution operation completed
+Time               385000: State = OAD, Next State = UTE
+input_counter = 17, output_counter =  0, row_counter = 2
+Valid Output: conv_out = 0049
+Convolution operation completed
+Time               395000: State = UTE, Next State = OAD
+input_counter = 18, output_counter =  0, row_counter = 3
+Convolution Result: conv_temp = 0050
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60ad, weight[          1] = 60bd, product = 0003
+window_buffer[          2] = 60a3, weight[          2] = 60be, product = fffd
+window_buffer[          3] = 608b, weight[          3] = 60c0, product = fff8
+window_buffer[          4] = 6088, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 6086, weight[          5] = 60c5, product = fff8
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60ad, weight[          7] = 60c8, product = 0006
+window_buffer[          8] = 60a3, weight[          8] = 60cb, product = fffc
+Convolution operation completed
+Time               405000: State = OAD, Next State = UTE
+input_counter = 18, output_counter =  1, row_counter = 3
+Valid Output: conv_out = 0050
+Convolution operation completed
+Time               415000: State = UTE, Next State = UTE
+input_counter = 19, output_counter =  1, row_counter = 3
+Convolution Result: conv_temp = 0048
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60ad, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 608d, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 608b, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6088, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60ad, weight[          8] = 60cb, product = fff8
+Convolution operation completed
+Time               425000: State = UTE, Next State = UTE
+input_counter = 19, output_counter =  2, row_counter = 3
+Convolution Result: conv_temp = 0048
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60ad, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 608d, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 608b, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6088, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60ad, weight[          8] = 60cb, product = fff8
+Valid Output: conv_out = 0048
+Convolution operation completed
+Time               435000: State = UTE, Next State = OAD
+input_counter = 19, output_counter =  3, row_counter = 3
+Convolution Result: conv_temp = 0048
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60ad, weight[          2] = 60be, product = fffa
+window_buffer[          3] = 608d, weight[          3] = 60c0, product = 0004
+window_buffer[          4] = 608b, weight[          4] = 60c3, product = fffa
+window_buffer[          5] = 6088, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60ad, weight[          8] = 60cb, product = fff8
+Valid Output: conv_out = 0048
+Convolution operation completed
+Time               445000: State = OAD, Next State = UTE
+input_counter = 19, output_counter =  4, row_counter = 3
+Valid Output: conv_out = 0048
+Convolution operation completed
+Time               455000: State = UTE, Next State = UTE
+input_counter = 20, output_counter =  4, row_counter = 3
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6090, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 608d, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 608b, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Convolution operation completed
+Time               465000: State = UTE, Next State = UTE
+input_counter = 20, output_counter =  5, row_counter = 3
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6090, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 608d, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 608b, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 004d
+Convolution operation completed
+Time               475000: State = UTE, Next State = UTE
+input_counter = 20, output_counter =  6, row_counter = 3
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6090, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 608d, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 608b, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 004d
+Convolution operation completed
+Time               485000: State = UTE, Next State = OAD
+input_counter = 20, output_counter =  7, row_counter = 3
+Convolution Result: conv_temp = 004d
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6090, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 608d, weight[          4] = 60c3, product = 0006
+window_buffer[          5] = 608b, weight[          5] = 60c5, product = 0006
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 004d
+Convolution operation completed
+Time               495000: State = OAD, Next State = UTE
+input_counter = 20, output_counter =  8, row_counter = 3
+Valid Output: conv_out = 004d
+Convolution operation completed
+Time               505000: Valid Output - data_out = 0000
+Time               505000: State = UTE, Next State = UTE
+input_counter = 21, output_counter =  8, row_counter = 3
+Convolution Result: conv_temp = 004c
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6098, weight[          3] = 60c0, product = 0007
+window_buffer[          4] = 6090, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 608d, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Convolution operation completed
+Time               515000: State = UTE, Next State = UTE
+input_counter = 21, output_counter =  9, row_counter = 3
+Convolution Result: conv_temp = 004c
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6098, weight[          3] = 60c0, product = 0007
+window_buffer[          4] = 6090, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 608d, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 004c
+Convolution operation completed
+Time               525000: Valid Output - data_out = 0000
+Time               525000: State = UTE, Next State = UTE
+input_counter = 21, output_counter = 10, row_counter = 3
+Convolution Result: conv_temp = 004c
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6098, weight[          3] = 60c0, product = 0007
+window_buffer[          4] = 6090, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 608d, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 004c
+Convolution operation completed
+Time               535000: State = UTE, Next State = OAD
+input_counter = 21, output_counter = 11, row_counter = 3
+Convolution Result: conv_temp = 004c
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 6098, weight[          3] = 60c0, product = 0007
+window_buffer[          4] = 6090, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 608d, weight[          5] = 60c5, product = 0002
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 004c
+Convolution operation completed
+Time               545000: State = OAD, Next State = UTE
+input_counter = 21, output_counter = 12, row_counter = 3
+Valid Output: conv_out = 004c
+Convolution operation completed
+Time               555000: End of Operation
+Time               555000: State = UTE, Next State = UTE
+input_counter = 22, output_counter = 12, row_counter = 3
+Convolution Result: conv_temp = 0051
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 60a3, weight[          3] = 60c0, product = fff9
+window_buffer[          4] = 6098, weight[          4] = 60c3, product = fff9
+window_buffer[          5] = 6090, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Convolution operation completed
+Time               565000: State = UTE, Next State = UTE
+input_counter = 22, output_counter = 13, row_counter = 3
+Convolution Result: conv_temp = 0051
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 60a3, weight[          3] = 60c0, product = fff9
+window_buffer[          4] = 6098, weight[          4] = 60c3, product = fff9
+window_buffer[          5] = 6090, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 0051
+Convolution operation completed
+Time               575000: State = UTE, Next State = UTE
+input_counter = 22, output_counter = 14, row_counter = 3
+Convolution Result: conv_temp = 0051
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 60a3, weight[          3] = 60c0, product = fff9
+window_buffer[          4] = 6098, weight[          4] = 60c3, product = fff9
+window_buffer[          5] = 6090, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 0051
+Convolution operation completed
+Time               585000: State = UTE, Next State = ONE
+input_counter = 22, output_counter = 15, row_counter = 3
+Convolution Result: conv_temp = 0051
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 60a3, weight[          3] = 60c0, product = fff9
+window_buffer[          4] = 6098, weight[          4] = 60c3, product = fff9
+window_buffer[          5] = 6090, weight[          5] = 60c5, product = 0004
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Valid Output: conv_out = 0051
+Convolution operation completed
+Time               595000: State = ONE, Next State = DLE
+input_counter = 22, output_counter =  0, row_counter = 3
+Valid Output: conv_out = 0051
+Convolution operation completed
+Time               605000: Valid Output - data_out = 0000
+Time               605000: State = DLE, Next State = OAD
+input_counter = 22, output_counter =  0, row_counter = 3
+Valid Output: conv_out = 0051
+Convolution operation completed
+Time               615000: State = OAD, Next State = UTE
+input_counter = 22, output_counter =  0, row_counter = 3
+Valid Output: conv_out = 0051
+Convolution operation completed
+Time               625000: Valid Output - data_out = 0000
+Time               625000: State = UTE, Next State = OAD
+input_counter = 23, output_counter =  0, row_counter = 3
+Convolution Result: conv_temp = 0051
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 60ad, weight[          3] = 60c0, product = 0006
+window_buffer[          4] = 60a3, weight[          4] = 60c3, product = fffb
+window_buffer[          5] = 6098, weight[          5] = 60c5, product = 0005
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Convolution operation completed
+Time               635000: State = OAD, Next State = UTE
+input_counter = 23, output_counter =  1, row_counter = 3
+Valid Output: conv_out = 0051
+Convolution operation completed
+Test completed for pool_type 0 with seed      12345
+Time               645000: State = UTE, Next State = UTE
+input_counter = 24, output_counter =  1, row_counter = 0
+Convolution Result: conv_temp = 0052
+window_buffer[          0] = 60b8, weight[          0] = 60bb, product = fffa
+window_buffer[          1] = 60b8, weight[          1] = 60bd, product = 0006
+window_buffer[          2] = 60b8, weight[          2] = 60be, product = fffc
+window_buffer[          3] = 60b8, weight[          3] = 60c0, product = fff8
+window_buffer[          4] = 60ad, weight[          4] = 60c3, product = fff8
+window_buffer[          5] = 60a3, weight[          5] = 60c5, product = 0007
+window_buffer[          6] = 60b8, weight[          6] = 60c6, product = fffc
+window_buffer[          7] = 60b8, weight[          7] = 60c8, product = fff8
+window_buffer[          8] = 60b8, weight[          8] = 60cb, product = fffb
+Convolution operation completed
+Time               655000: State = DLE, Next State = OAD
+input_counter =  0, output_counter =  0, row_counter = 0
+Time               665000: State = DLE, Next State = OAD
+input_counter =  0, output_counter =  0, row_counter = 0
+Time               675000: State = OAD, Next State = OAD
+input_counter =  0, output_counter =  0, row_counter = 0
+Time               685000: State = OAD, Next State = OAD
+input_counter =  1, output_counter =  0, row_counter = 0
+Time               695000: State = OAD, Next State = OAD
+input_counter =  2, output_counter =  0, row_counter = 0
+Time               705000: State = OAD, Next State = OAD
+input_counter =  3, output_counter =  0, row_counter = 0
+Time               715000: State = OAD, Next State = OAD
+input_counter =  4, output_counter =  0, row_counter = 0
+Time               725000: State = OAD, Next State = OAD
+input_counter =  5, output_counter =  0, row_counter = 0
+Time               735000: State = OAD, Next State = OAD
+input_counter =  6, output_counter =  0, row_counter = 1
+Time               745000: State = OAD, Next State = OAD
+input_counter =  7, output_counter =  0, row_counter = 1
+Time               755000: State = OAD, Next State = OAD
+input_counter =  8, output_counter =  0, row_counter = 1
+Time               765000: State = OAD, Next State = OAD
+input_counter =  9, output_counter =  0, row_counter = 1
+Time               775000: State = OAD, Next State = OAD
+input_counter = 10, output_counter =  0, row_counter = 1
+Time               785000: State = OAD, Next State = OAD
+input_counter = 11, output_counter =  0, row_counter = 1
+Time               795000: State = OAD, Next State = UTE
+input_counter = 12, output_counter =  0, row_counter = 2
+Time               805000: State = UTE, Next State = OAD
+input_counter = 13, output_counter =  0, row_counter = 2
+Convolution Result: conv_temp = 0043
+window_buffer[          0] = 127e, weight[          0] = 12ad, product = 0005
+window_buffer[          1] = 127d, weight[          1] = 12ae, product = 0005
+window_buffer[          2] = 127b, weight[          2] = 12b0, product = 0005
+window_buffer[          3] = 1273, weight[          3] = 12b3, product = ffff
+window_buffer[          4] = 1270, weight[          4] = 12b5, product = fffe
+window_buffer[          5] = 126e, weight[          5] = 12b6, product = fffd
+window_buffer[          6] = 127e, weight[          6] = 12b8, product = 0002
+window_buffer[          7] = 127d, weight[          7] = 12bb, product = 0004
+window_buffer[          8] = 127b, weight[          8] = 12bd, product = 0004
+Time               815000: State = OAD, Next State = UTE
+input_counter = 13, output_counter =  1, row_counter = 2
+Valid Output: conv_out = 0043
+Time               825000: State = UTE, Next State = UTE
+input_counter = 14, output_counter =  1, row_counter = 2
+Convolution Result: conv_temp = 003f
+window_buffer[          0] = 1283, weight[          0] = 12ad, product = fffb
+window_buffer[          1] = 127e, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 127d, weight[          2] = 12b0, product = 0007
+window_buffer[          3] = 1275, weight[          3] = 12b3, product = 0002
+window_buffer[          4] = 1273, weight[          4] = 12b5, product = 0002
+window_buffer[          5] = 1270, weight[          5] = 12b6, product = ffff
+window_buffer[          6] = 1283, weight[          6] = 12b8, product = fff8
+window_buffer[          7] = 127e, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 127d, weight[          8] = 12bd, product = 0007
+Time               835000: State = UTE, Next State = UTE
+input_counter = 14, output_counter =  2, row_counter = 2
+Convolution Result: conv_temp = 003f
+window_buffer[          0] = 1283, weight[          0] = 12ad, product = fffb
+window_buffer[          1] = 127e, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 127d, weight[          2] = 12b0, product = 0007
+window_buffer[          3] = 1275, weight[          3] = 12b3, product = 0002
+window_buffer[          4] = 1273, weight[          4] = 12b5, product = 0002
+window_buffer[          5] = 1270, weight[          5] = 12b6, product = ffff
+window_buffer[          6] = 1283, weight[          6] = 12b8, product = fff8
+window_buffer[          7] = 127e, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 127d, weight[          8] = 12bd, product = 0007
+Valid Output: conv_out = 003f
+Time               845000: State = UTE, Next State = OAD
+input_counter = 14, output_counter =  3, row_counter = 2
+Convolution Result: conv_temp = 003f
+window_buffer[          0] = 1283, weight[          0] = 12ad, product = fffb
+window_buffer[          1] = 127e, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 127d, weight[          2] = 12b0, product = 0007
+window_buffer[          3] = 1275, weight[          3] = 12b3, product = 0002
+window_buffer[          4] = 1273, weight[          4] = 12b5, product = 0002
+window_buffer[          5] = 1270, weight[          5] = 12b6, product = ffff
+window_buffer[          6] = 1283, weight[          6] = 12b8, product = fff8
+window_buffer[          7] = 127e, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 127d, weight[          8] = 12bd, product = 0007
+Valid Output: conv_out = 003f
+Time               855000: State = OAD, Next State = UTE
+input_counter = 14, output_counter =  4, row_counter = 2
+Valid Output: conv_out = 003f
+Time               865000: State = UTE, Next State = UTE
+input_counter = 15, output_counter =  4, row_counter = 2
+Convolution Result: conv_temp = 0037
+window_buffer[          0] = 128b, weight[          0] = 12ad, product = 0004
+window_buffer[          1] = 1283, weight[          1] = 12ae, product = fffc
+window_buffer[          2] = 127e, weight[          2] = 12b0, product = fff9
+window_buffer[          3] = 1276, weight[          3] = 12b3, product = 0003
+window_buffer[          4] = 1275, weight[          4] = 12b5, product = 0004
+window_buffer[          5] = 1273, weight[          5] = 12b6, product = 0003
+window_buffer[          6] = 128b, weight[          6] = 12b8, product = 0001
+window_buffer[          7] = 1283, weight[          7] = 12bb, product = fffb
+window_buffer[          8] = 127e, weight[          8] = 12bd, product = fff8
+Time               875000: State = UTE, Next State = UTE
+input_counter = 15, output_counter =  5, row_counter = 2
+Convolution Result: conv_temp = 0037
+window_buffer[          0] = 128b, weight[          0] = 12ad, product = 0004
+window_buffer[          1] = 1283, weight[          1] = 12ae, product = fffc
+window_buffer[          2] = 127e, weight[          2] = 12b0, product = fff9
+window_buffer[          3] = 1276, weight[          3] = 12b3, product = 0003
+window_buffer[          4] = 1275, weight[          4] = 12b5, product = 0004
+window_buffer[          5] = 1273, weight[          5] = 12b6, product = 0003
+window_buffer[          6] = 128b, weight[          6] = 12b8, product = 0001
+window_buffer[          7] = 1283, weight[          7] = 12bb, product = fffb
+window_buffer[          8] = 127e, weight[          8] = 12bd, product = fff8
+Valid Output: conv_out = 0037
+Time               885000: State = UTE, Next State = UTE
+input_counter = 15, output_counter =  6, row_counter = 2
+Convolution Result: conv_temp = 0037
+window_buffer[          0] = 128b, weight[          0] = 12ad, product = 0004
+window_buffer[          1] = 1283, weight[          1] = 12ae, product = fffc
+window_buffer[          2] = 127e, weight[          2] = 12b0, product = fff9
+window_buffer[          3] = 1276, weight[          3] = 12b3, product = 0003
+window_buffer[          4] = 1275, weight[          4] = 12b5, product = 0004
+window_buffer[          5] = 1273, weight[          5] = 12b6, product = 0003
+window_buffer[          6] = 128b, weight[          6] = 12b8, product = 0001
+window_buffer[          7] = 1283, weight[          7] = 12bb, product = fffb
+window_buffer[          8] = 127e, weight[          8] = 12bd, product = fff8
+Valid Output: conv_out = 0037
+Time               895000: State = UTE, Next State = OAD
+input_counter = 15, output_counter =  7, row_counter = 2
+Convolution Result: conv_temp = 0037
+window_buffer[          0] = 128b, weight[          0] = 12ad, product = 0004
+window_buffer[          1] = 1283, weight[          1] = 12ae, product = fffc
+window_buffer[          2] = 127e, weight[          2] = 12b0, product = fff9
+window_buffer[          3] = 1276, weight[          3] = 12b3, product = 0003
+window_buffer[          4] = 1275, weight[          4] = 12b5, product = 0004
+window_buffer[          5] = 1273, weight[          5] = 12b6, product = 0003
+window_buffer[          6] = 128b, weight[          6] = 12b8, product = 0001
+window_buffer[          7] = 1283, weight[          7] = 12bb, product = fffb
+window_buffer[          8] = 127e, weight[          8] = 12bd, product = fff8
+Valid Output: conv_out = 0037
+Time               905000: State = OAD, Next State = UTE
+input_counter = 15, output_counter =  8, row_counter = 2
+Valid Output: conv_out = 0037
+Time               915000: Valid Output - data_out = 0000
+Time               915000: State = UTE, Next State = UTE
+input_counter = 16, output_counter =  8, row_counter = 2
+Convolution Result: conv_temp = 0044
+window_buffer[          0] = 1295, weight[          0] = 12ad, product = 0000
+window_buffer[          1] = 128b, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 1283, weight[          2] = 12b0, product = ffff
+window_buffer[          3] = 1278, weight[          3] = 12b3, product = 0005
+window_buffer[          4] = 1276, weight[          4] = 12b5, product = 0005
+window_buffer[          5] = 1275, weight[          5] = 12b6, product = 0005
+window_buffer[          6] = 1295, weight[          6] = 12b8, product = fffd
+window_buffer[          7] = 128b, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 1283, weight[          8] = 12bd, product = fffe
+Time               925000: State = UTE, Next State = UTE
+input_counter = 16, output_counter =  9, row_counter = 2
+Convolution Result: conv_temp = 0044
+window_buffer[          0] = 1295, weight[          0] = 12ad, product = 0000
+window_buffer[          1] = 128b, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 1283, weight[          2] = 12b0, product = ffff
+window_buffer[          3] = 1278, weight[          3] = 12b3, product = 0005
+window_buffer[          4] = 1276, weight[          4] = 12b5, product = 0005
+window_buffer[          5] = 1275, weight[          5] = 12b6, product = 0005
+window_buffer[          6] = 1295, weight[          6] = 12b8, product = fffd
+window_buffer[          7] = 128b, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 1283, weight[          8] = 12bd, product = fffe
+Valid Output: conv_out = 0044
+Time               935000: Valid Output - data_out = 0000
+Time               935000: State = UTE, Next State = UTE
+input_counter = 16, output_counter = 10, row_counter = 2
+Convolution Result: conv_temp = 0044
+window_buffer[          0] = 1295, weight[          0] = 12ad, product = 0000
+window_buffer[          1] = 128b, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 1283, weight[          2] = 12b0, product = ffff
+window_buffer[          3] = 1278, weight[          3] = 12b3, product = 0005
+window_buffer[          4] = 1276, weight[          4] = 12b5, product = 0005
+window_buffer[          5] = 1275, weight[          5] = 12b6, product = 0005
+window_buffer[          6] = 1295, weight[          6] = 12b8, product = fffd
+window_buffer[          7] = 128b, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 1283, weight[          8] = 12bd, product = fffe
+Valid Output: conv_out = 0044
+Time               945000: State = UTE, Next State = OAD
+input_counter = 16, output_counter = 11, row_counter = 2
+Convolution Result: conv_temp = 0044
+window_buffer[          0] = 1295, weight[          0] = 12ad, product = 0000
+window_buffer[          1] = 128b, weight[          1] = 12ae, product = 0006
+window_buffer[          2] = 1283, weight[          2] = 12b0, product = ffff
+window_buffer[          3] = 1278, weight[          3] = 12b3, product = 0005
+window_buffer[          4] = 1276, weight[          4] = 12b5, product = 0005
+window_buffer[          5] = 1275, weight[          5] = 12b6, product = 0005
+window_buffer[          6] = 1295, weight[          6] = 12b8, product = fffd
+window_buffer[          7] = 128b, weight[          7] = 12bb, product = 0005
+window_buffer[          8] = 1283, weight[          8] = 12bd, product = fffe
+Valid Output: conv_out = 0044
+Time               955000: State = OAD, Next State = UTE
+input_counter = 16, output_counter = 12, row_counter = 2
+Valid Output: conv_out = 0044
+Time               965000: State = UTE, Next State = UTE
+input_counter = 17, output_counter = 12, row_counter = 2
+Convolution Result: conv_temp = 0038
+window_buffer[          0] = 129e, weight[          0] = 12ad, product = fffb
+window_buffer[          1] = 1295, weight[          1] = 12ae, product = 0001
+window_buffer[          2] = 128b, weight[          2] = 12b0, product = fff8
+window_buffer[          3] = 127b, weight[          3] = 12b3, product = fff9
+window_buffer[          4] = 1278, weight[          4] = 12b5, product = 0007
+window_buffer[          5] = 1276, weight[          5] = 12b6, product = 0006
+window_buffer[          6] = 129e, weight[          6] = 12b8, product = 0007
+window_buffer[          7] = 1295, weight[          7] = 12bb, product = 0000
+window_buffer[          8] = 128b, weight[          8] = 12bd, product = 0007
+Time               975000: State = UTE, Next State = UTE
+input_counter = 17, output_counter = 13, row_counter = 2
+Convolution Result: conv_temp = 0038
+window_buffer[          0] = 129e, weight[          0] = 12ad, product = fffb
+window_buffer[          1] = 1295, weight[          1] = 12ae, product = 0001
+window_buffer[          2] = 128b, weight[          2] = 12b0, product = fff8
+window_buffer[          3] = 127b, weight[          3] = 12b3, product = fff9
+window_buffer[          4] = 1278, weight[          4] = 12b5, product = 0007
+window_buffer[          5] = 1276, weight[          5] = 12b6, product = 0006
+window_buffer[      

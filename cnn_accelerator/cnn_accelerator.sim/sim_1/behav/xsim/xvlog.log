@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/accelerator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accelerator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/convolver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module convolver
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/pooler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pooler
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/quantizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module quantizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sources_1/new/relu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module relu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/Efficient-FPGA-CNN-Accelerator-main/Efficient-FPGA-CNN-Accelerator-main/E_FPGA_ACCELERATOR_CNN.srcs/sim_1/new/accelerator_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module accelerator_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Downloads/fpga/cnn_accelerator/cnn_accelerator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
