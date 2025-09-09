@@ -90,8 +90,8 @@ The accelerator supports:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/cnn-hardware-accelerator.git
-cd cnn-hardware-accelerator
+https://github.com/Fariaz99cuet/2D_CNN_ACCELERATOR.git
+cd 2D_CNN_ACCELERATOR
 ```
 
 2. **Simulate the design** using your preferred Verilog simulator (e.g., ModelSim, Vivado, Icarus Verilog).
