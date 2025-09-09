@@ -81,7 +81,8 @@ The accelerator supports:
 | `p`       | Pooling window size (default 2x2)                           |
 | `s`       | Stride for convolution (default 1)                          |
 | `NUM_MAC` | Number of parallel MAC units for convolution (default 4)    |
-
+## Here Is The Simulated Waveform For Designed Testbench
+ ![RTL Synthesis](cnn_accelerator/Images/waveform.jpg)
 ---
 
 ## Usage
