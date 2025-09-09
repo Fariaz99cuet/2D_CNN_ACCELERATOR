@@ -1,5 +1,4 @@
-Here’s a polished, detailed description you can use for your GitHub repository. I’ve written it in a way that’s suitable for a `README.md` and also suggested where you can add images:
-
+](images/accelerator.jpg)
 ---
 
 # CNN Hardware Accelerator for Image Processing
@@ -109,19 +108,5 @@ cd cnn-hardware-accelerator
 
 ---
 
-## Suggested Images
 
-You can include images in a folder like `/images` and reference them in the README:
 
-1. **Sliding Window Movement** – visualizing how a 3×3 filter moves across a 6×6 input.
-2. **Convolution Operation** – showing window elements × weights → sum.
-3. **Quantization Example** – showing how LSBs are truncated.
-4. **ReLU Activation** – negative values → 0, positive values remain.
-5. **Pooling Example** – max, average, and min pooling results.
-6. **Pipeline Flow** – diagram showing conv → quant → ReLU → pool stages.
-
----
-
-If you want, I can **also make a full GitHub-ready `README.md` file with markdown formatting and placeholders for all images**, so you can just drop your pictures in `/images` and it will look professional.
-
-Do you want me to do that next?
