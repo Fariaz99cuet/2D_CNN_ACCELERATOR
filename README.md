@@ -1,4 +1,4 @@
-](images/accelerator.jpg)
+ ![RTL Synthesis](Images/accelerator.jpg)
 ---
 
 # CNN Hardware Accelerator for Image Processing
